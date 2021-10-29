@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+background: url(../img/5.jpg) 100% 50% no-repeat;
+
+
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 60px;
+}
+
+.boxfr {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 350px;
+  width: 230px;
+  margin-right: 20px;
+  text-align: center;
+
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+.boxsc {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 350px;
+  width: 230px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+.title {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #A6B1E1;
+  color: #424874;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  background: url(../img/5.jpg) 100% 50% no-repeat;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+h3 {
+  margin: 35px 20px 0 0;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.list {
+  color: #fff;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+  margin: 12px;
+  text-decoration: none;
+  margin-bottom: 35px;
+}
+
+.list {
+  margin-bottom: 15px;
+}
+
+.boxth {
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  height: 350px;
+  width: 230px;
+  text-align: center;
+  margin-right: 20px;
+
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+.btn-link:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+
+
+.btn-link {
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  border-radius: 90px;
+  align-items: center;
+  justify-content: center;
+  cursor: sw-resize;
+  transition: 0.5s;
+}
+
+.back-text {
+  position: absolute;
+  top: 5px;
+  left: 130px;
+  font-size: 100px;
+  opacity: 10%;
+  z-index: 1;
+}
+
+.back-text1 {
+  position: absolute;
+  top: 5px;
+  left: 110px;
+  font-size: 100px;
+  opacity: 10%;
+  z-index: 1;
+}
+
+.back-text2 {
+  position: absolute;
+  top: 5px;
+  left: 110px;
+  font-size: 100px;
+  opacity: 10%;
+  z-index: 1;
+}
